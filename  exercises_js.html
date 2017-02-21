@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Jave Script Practice </title>
+</head>
+
+
+<body>
+
+</body>
+
+<script type="text/javascript">
+  
+// var pets = ["Rabit", "Dog", "Cat"];
+
+// console.log(pets[1]);
+
+//  pets.push("calf");
+
+//  console.log(pets);
+
+// console.log(pets.length);
+
+
+
+// #Create an object that represents a particular book, having properties of title, author, isbn, pages, and year of publication. Now turn “book” into an array of “books” (add a second book). Add a 3rd book a new line without changing your code of “books”.
+
+//  var books = [
+//     {
+//       title: "Thousand Hills",
+//       author: " Wiley",
+//       isbn: "978-0470120156",
+//       pages: 400,
+//       publication: 2008
+//    },
+
+// {
+//       title: "The Hunger Games",
+//       author: " Suzanne Collins",
+//       isbn: "978-0439023528",
+//       pages: 384,
+//       publication: 2010
+//    }
+// ];
+
+// books.push({
+      
+//       title: "Flash",
+//       author: " John Broome",
+//       isbn: "978-1401257712",
+//       pages: 264,
+//       publication: 2015
+//    });
+//   console.log(books);
+
+
+
+// #Do a NASA countdown in the console. It should output each number starting at 10 all the way down to 1, then output “BLASTOFF!” Hint: use a loop.
+
+
+  // for (var i = 10; i > 0; i--) {
+
+
+  //   console.log(i);
+  // }
+
+  // console.log("BLASTOFF!!");
+
+
+//   var numbers = [5, 23, 98, 234, 1, 0, 3, 177]
+
+//   for (var i= 0; i < numbers.length; i++) {
+//     console.log(numbers[i]);
+//   }
+
+
+//   var total = 0;
+//     for(var i = 0; i < numbers.length; i++) {
+//     total += numbers[i];
+// }
+// var average = total / numbers.length;
+
+// console.log(average)
+
+
+// FizzBuzz Excercise
+
+// for (var i=1; i <= 100; i++)
+// {
+//     if (i % 15 === 0)
+//         console.log("Fizz");
+//     else if (i % 3 === 0)
+//         console.log("Buzz");
+//     else if (i % 5 === 0)
+//         console.log("FizzBuzz");
+//     else
+//         console.log(i);
+
+// Bonus
+// Recreate the guess a number game between 1 and 100. That is, the computer chooses a random number between 1 and 100
+
+
+// var randomeNumber = Math.floor(Math.random() * 100) +1;
+// var guess = prompt ("Guess a number between 1 and 100")
+
+// if (randomeNumber === randomeNumber)
+//   console.log ("Congraculations")
+
+// else if (randomeNumber < 30 )
+//   console.log("Guess Hiegher")
+
+// else (randomeNumber > 50)
+//   console.log("Guess Lower")
+
+// console.log(randomeNumber)
+
+  
+
+
+
+// function number ( numberOne, numberTwo) 
+
+//   {
+//     return numberOne + numberTwo
+//   }
+
+// console.log(number(3,5))
+
+
+
+
+// Function Parameters...............
+
+// var number = [ 20, 30, 40, 50, 60];
+
+// var average = function(avg){
+
+//    var total =  0;
+//    var elementCount = avg.length;
+
+//     for (var i=0; i<elementCount; i++) 
+//       {
+//         total += avg[i];
+//       }
+
+//     return total/elementCount;
+// }
+
+// console.log(average(number))
+
+
+
+
+var book = {
+      title: "Thousand Hills",
+      author: "James Roy",
+      isbn: "978-0470120156",
+      pages: 400,
+      publication: 2008,
+
+    printMessage: function() {
+      return this.title + " is a book, which was pulished in " + this.publication + this.author;
+    }
+  };
+
+
+
+</script>>
+</html>
